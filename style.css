@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Barlow:wght@500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Barlow:wght@500&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Barlow:wght@500&family=Black+Ops+One&family=Bungee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+  @media screen and (max-width: 768px){
+    
+    #typewriter{
+
+      font-size: 2.5rem !important;
+      text-align: center !important;
+      padding: 20px;
+     
+    }
+.presentacion p{
+text-align: center !important;
+font-size: 20px !important;
+}
+
+.card-header1{
+  font-size: 2.5rem !important;
+    }
+
+.card-header2{
+  font-size: 2.5rem !important;
+        }
+
+.card-header3{
+font-size: 2.5rem !important;
+  }
+
+  .card-header4{
+    font-size: 2.5rem !important;
+      }
+
+  .caja1 p{
+    font-size: 20px !important;
+  }
+
+  .caja2 p{
+    font-size: 20px !important;
+  }
+
+  .asesoria p{
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+
+  .niveles p{
+    font-size: 30px !important;
+  }
+
+  .contacto .descripcion{
+    font-size: 24px !important;
+  }
+
+  }
+
+
+.navbar {
+    padding: 2rem;
+    background-color: #1857c4;
+  }
+  
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-between;  
+  }
+  
+  .nav-link {
+    color: white !important;
+    font-size: 22px !important;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+ 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1857c4;
+    width: 100%;
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #1857c4;
+    margin-top: 10px;
+}
+ /*header ul li{
+  
+
+} */
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white ;
+}
+.presentacion h1{
+    font-size: 50%;
+    color: black;
+    margin-top: 20px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-primary{
+    font-size: 55px;
+    color: black;
+    margin-top: 50px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.presentacion p{
+    width: 70%;
+    font-size: 25px;
+    padding: 10px;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-inner img{
+    width: 20%;
+   height: 20%;
+   margin-bottom: 20px;
+}
+
+.caja1 {
+   border:3px solid;
+   border-radius:22px;
+   width: 100%;
+   height: 100%;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: baseline;
+   align-items: center;
+   margin-top: 30px;
+   background-color: #00bf63;
+}
+
+.caja2 {
+    border:3px solid;
+    border-radius:22px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #ffde59;
+ }
+
+h1{
+    margin-bottom: 20px;
+    font-size: 55px;
+    color: black;
+    margin-top: 30px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.caja1 p{
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+}
+
+.caja2 p{
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+}
+.asesoria{
+    margin-top: 70px;
+   border:3px solid;
+   border-radius:22px;
+   width: 100%;
+    height: 100%;
+    background-color: #FC5D5D;
+}
+
+.asesoria h1{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.asesoria p{
+    color: black;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.niveles p{
+    color: black;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+#carouselExample2 img{
+    width: 150px;
+}
+
+#primaria{
+    background-color: #ffde59;
+    margin-top: 30px;
+}
+
+#secundaria{
+    background-color: #1857c4;
+}
+
+
+.prim {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.primaria li{
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px; 
+    max-width: 70%;
+}
+.secundaria li{
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px; 
+}
+.preparatoria li{
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px; 
+}.universidad li{
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px; 
+}
+
+.titulo h1{
+    font-size: 55px;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px !important;
+}
+
+.card-header1{
+
+    font-size: 3rem;
+    padding: 15px 0;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px !important;
+    background-color: #ffde59 !important;
+}
+
+.card-header2{
+    
+    font-size: 3rem;
+    padding: 15px 0;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px !important;
+    background-color: #1857c4 !important;
+}
+
+.card-header3{
+  font-size: 3rem;
+  padding: 15px 0;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px !important;
+    background-color: #ff3131 !important;
+}
+
+.card-header4{
+  font-size: 3rem;
+  padding: 15px 0;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px !important;
+    background-color: #00bf63 !important;
+}
+
+
+.imagen{
+    margin-top: 20px !important;
+}
+
+
+.card{
+    background-color: #ff3131
+}
+
+
+#preparatoria{
+    background-color: #ff3131;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#universidad{
+    background-color: #00bf63;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.contacto .container {
+    max-width: 2200px;
+    min-height: 200px;
+    padding: 20px;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+  }
+  
+  .contacto .rectangulo {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background-color: #ffde59;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+  }
+  
+  .contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contacto .descripcion {
+    color: black;
+    font-size: 26px;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .contacto button {
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contacto button:hover {
+    background-color: black;
+    color: #ffde59;
+  }
+  
+  .contacto button i {
+    color: black;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contacto button:hover i {
+    color: #ffde59;
+  }
+
+
+footer {
+    min-height: 500px;
+    background-color: #1857c4;
+  }
+  
+  .footer-logo {
+    height: 350px;
+    width: 350px;
+    
+  }
+  
+  .footer-texto {
+
+    padding: 0px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem; 
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i {
+    color: white;
+    font-size: 2rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid white;
+  }
+  
+  .iconos-redes-sociales a:hover i {
+    color: #1857c4;
+  }
+  
+  .derechos-de-autor {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+  }
+  
